@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         add.setOnClickListener() {
-            output.text = output.text.toString() + input.text.toString();
+            output.text =output.text.toString()+input.text.toString();
         }
 
         suma.setOnClickListener() {
